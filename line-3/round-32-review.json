@@ -1,0 +1,57 @@
+{
+  "wall": {
+    "path": "artifacts/line-3/wall-v14.png",
+    "current_alias": "artifacts/line-3/wall.png",
+    "format": "PNG",
+    "color": "RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2940827,
+    "sha256": "2a555aa66fbeec5e8e60f53dcec552c9544bcacc773e21146e48b5ede6e4c71e"
+  },
+  "preview": {
+    "path": "dist/line-3/32.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 67322
+  },
+  "preservation": {
+    "ancestor": "artifacts/line-3/wall-v12.png",
+    "ancestor_sha256": "6870b1404b48b0fcf0d3af70924e6473f4f2230e5fd47d3f55198c200b4af9a1",
+    "patch_bounds_exclusive": [
+      790,
+      265,
+      970,
+      365
+    ],
+    "changed_pixels": 17419,
+    "changed_outside_patch": 0,
+    "all_pixels_outside_patch_identical": true
+  },
+  "visual_review": {
+    "mark": "Three uneven charcoal and ochre pebbles branch from a short chalk fork, suggesting coverage that widens under a larger clock-bound assumption.",
+    "pepe": "The inherited heavy-lidded, wide-mouthed Pepe remains unchanged and recognizable.",
+    "hands": "No new hands or handprints were added. The inherited figure's digits are too worn or small to count separately.",
+    "letters_or_numbers": false,
+    "unmet_visual_requirements": [
+      "The inherited Pepe hand digits cannot be individually verified as five per hand at this image scale."
+    ],
+    "limitations": [
+      "The small pigment motif is less distinct in the 512-pixel preview.",
+      "Review was local and not independent artistic approval."
+    ]
+  },
+  "tool_checks": {
+    "tests_passed": 5,
+    "seeded_interval_sets": 400,
+    "demo": "Four synthetic profiles compare 0, 250, 500, and 1000 ms bounds over five seconds.",
+    "runtime": "Python 3.10+ standard library, offline; copied-folder CLI and digest pins passed."
+  },
+  "limitations": [
+    "No real incident was supplied or analyzed.",
+    "Clock bounds are analyst assumptions, not measurements.",
+    "Interval coverage does not prove simultaneity, causality, load, downtime or inactivity.",
+    "Replay proves consistency, not source authenticity or completeness."
+  ]
+}

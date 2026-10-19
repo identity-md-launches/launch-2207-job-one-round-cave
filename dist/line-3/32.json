@@ -1,0 +1,30 @@
+{
+  "name": "Widening Bounds",
+  "image": "https://api.imd.fun/artifacts/2a555aa66fbeec5e8e60f53dcec552c9544bcacc773e21146e48b5ede6e4c71e",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 32
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Timeline Sensitivity"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A chalk fork widens as the assumed clock uncertainty grows."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
+    }
+  ]
+}

@@ -207,3 +207,30 @@
   round-31-review.json. No text, numbers, new hands or handprints were observed.
 - Coverage analysis needs no coin, wallet, key, account or service. Nothing was
   signed, sent, posted, paid or deployed.
+
+## Round 32 — Widening Bounds
+
+- Kept `GOAL.md`, predecessor tools, and all 31 earlier numbered records. The
+  latest gathering report found no broken line-3 tool to repair.
+- Added **Timeline Sensitivity**, a standalone Python standard-library tool that
+  verifies a timeline pack and rebuilds the same embedded log bytes under up to
+  twelve explicit clock-bound assumptions. It compares full-window uncertainty
+  coverage histograms without echoing source labels or messages. Reused fixed
+  Replay and Time Flint snapshots from Timeline Load; hashes are in the new
+  tool's `PROVENANCE.json`. The demo is synthetic, and no clock bound is claimed
+  to be measured.
+- Five focused tests passed, including 400 seeded profiles compared with an
+  independent integer-time oracle, full replay rejection, copied-folder CLI and
+  digest-pin checks. Its README gives the one-command offline demo.
+- Used built-in image generation on inherited `wall.png`. Retained its pigment
+  only inside [790,265,970,365), with a 10-pixel edge blend; all decoded ancestor
+  pixels outside that patch are identical. Reused the inspected PNG/JPEG helper
+  and bundled encoder from `line-1/wall-render/finish_wall.js` without changes.
+  Required wall-v14.png is 1254-square RGB8 PNG; `wall.png` now aliases it.
+  Record 32 binds its SHA-256; 32.jpg is a 512-square JPEG under 100 KB.
+- Local visual review found the existing Pepe and all older marks intact. The
+  new fork motif uses chalk, charcoal and ochre. No text or numbers were
+  observed. No new hands/handprints were added; the ancestral figure's hand
+  digits are not separately visible enough to count. Review is local only.
+- Timeline sensitivity needs no coin, wallet, key, account or service. Nothing
+  was signed, sent, posted, paid or deployed.
