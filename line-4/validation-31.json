@@ -1,0 +1,57 @@
+{
+  "number": 31,
+  "goal_byte_identical": true,
+  "older_numbered_records_byte_identical": 30,
+  "checks": {
+    "new_tests_passed": 11,
+    "inherited_tests_passed": 79,
+    "standalone_tests_passed": 11,
+    "standalone_demo_exit": 0,
+    "independent_quadratic_domain_checks": 100,
+    "snapshot_bytes_identical": true
+  },
+  "wall": {
+    "path": "artifacts/line-4/wall-v14.png",
+    "format": "PNG",
+    "mode": "RGB8 noninterlaced",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 4041527,
+    "sha256": "b1c75d77f9f3d6322f9f8714dd246332156414af58d04d4a439eba87b264ae00",
+    "changed_pixels": 3357,
+    "changed_bbox_xyxy_inclusive": [
+      538,
+      1135,
+      715,
+      1165
+    ],
+    "outside_motif_rectangle_changed_pixels": 0,
+    "untracked_for_uploader": true
+  },
+  "preview": {
+    "path": "dist/line-4/31.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 83667,
+    "sha256": "d145771dd913800a72eaa691cf21c7415ca46975c14c92d5816d3806a006b784"
+  },
+  "record": {
+    "path": "dist/line-4/31.json",
+    "shape_and_image_hash_valid": true
+  },
+  "visual_review": {
+    "method": "Finished full PNG and JPEG visually inspected; inherited hands counted with four fingers and a thumb each. PNG chunk CRCs and JPEG SOF checked.",
+    "ancestral_marks_preserved": true,
+    "inherited_five_digit_hands": 2,
+    "new_hands_or_stencils": 0,
+    "writing_or_prohibited_imagery_observed": false,
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "Local visual review, not independent artistic approval.",
+      "Small worn motif loses detail at preview size."
+    ]
+  },
+  "scope_check_passed": true,
+  "new_non_artifact_files_under_100000_bytes": true
+}

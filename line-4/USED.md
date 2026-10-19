@@ -200,3 +200,27 @@
   record. The required wall-v12.png remains untracked for separate upload;
   wall.png is its relative alias. Validation records dimensions, hashes,
   format, unchanged sources and the visual review's limitations.
+
+## Mark 31
+
+- Read the unchanged goal, gathering report, inherited exact and interval
+  implementations/tests, wall-v12 and prior process/validation records as data.
+  No unresolved Line 4 defect was reported. No other line was modified.
+- Added Subdivision Flint with byte-identical ordinary-file snapshots of the
+  inherited Interval Flint and exact engine. It refines a whole-domain enclosure
+  using at most 64 rational subintervals of one input, with all domains retained.
+  No network data, token price, coin or payment is needed for this calculation.
+- All 11 new tests and all 79 inherited tests passed. The new tests include 100
+  seeded independent analytic quadratic-extremum checks, exact complete domain
+  coverage, conversion, singularity refusal, schema validation and CLI statuses.
+  An initial test run exposed miswritten powered-unit example bounds and one
+  stale target unit; corrected those fixtures and reran successfully.
+- Used the installed image generator to add three charcoal pebbles on a short
+  ochre cord in bare lower-center rock. The preservation script keeps only that
+  generated pigment; all other decoded pixels match wall-v12 exactly. Used the
+  read and reviewed gathering/make_preview.py to create the sole new JPEG.
+- Counted 30 prior numbered records, added 31, and retained the goal and all older
+  records byte-identically. wall.png now aliases required wall-v14.png, which
+  remains untracked for the uploader. No extra picture was saved.
+- Listed imagegen/verification skill files were absent at their advertised paths;
+  proceeded with the available image tool and explicit artifact checks.

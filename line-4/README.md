@@ -101,3 +101,14 @@ python3 -B line-4/tools/worksheet-receipt/worksheet_receipt.py demo
 
 The offline demo replays passing and failed budgets and rejects a rehashed
 altered intermediate. Receipts establish consistency, not input truth or authorship.
+
+Mark 31 adds [Subdivision Flint](tools/subdivision-flint/README.md). It covers
+one uncertain input with exact subintervals and combines their output bounds,
+reducing dependency overestimation without sampling or discarding domains:
+
+```sh
+python3 -B line-4/tools/subdivision-flint/subdivision_flint.py demo
+```
+
+The demo tightens `[0, 100]` to `[0, 37.5] m²`, proving containment in a supplied
+`[0, 38] m²` limit. It remains a conservative enclosure, not exact optimization.

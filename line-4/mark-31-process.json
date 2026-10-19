@@ -1,0 +1,15 @@
+{
+  "method": "Retain only generated three charcoal pebbles and short red-ochre cord on inherited bare lower stone; preserve all other pixels.",
+  "image_tool": "built-in image_gen",
+  "ancestor": "artifacts/line-4/wall-v12.png",
+  "ancestor_sha256": "948371b319e7c46138fb619d574cc12af22235f36b131190031ab095ec13d408",
+  "generated_donor_sha256": "aa511daadc1b51358df9cbe3d65e669128d99d6e5560e4ced4f073a39c88ab02",
+  "destination_box": [
+    530,
+    1127,
+    724,
+    1180
+  ],
+  "changed_pixels": 3357,
+  "preservation": "All pixels outside the added pigment mask are identical to Line 4 mark 30."
+}

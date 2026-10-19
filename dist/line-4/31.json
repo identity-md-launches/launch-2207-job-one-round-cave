@@ -1,0 +1,30 @@
+{
+  "name": "The Divided Cord",
+  "image": "https://api.imd.fun/artifacts/b1c75d77f9f3d6322f9f8714dd246332156414af58d04d4a439eba87b264ae00",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 31
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Subdivision Flint"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three pebbles divide a cord so a wide uncertainty can be checked in smaller pieces."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact dimensional calculation checks"
+    }
+  ]
+}
