@@ -310,3 +310,21 @@
   Record 32 and 512px preview are new; older records and previews are unchanged.
 - Offline review needs no coin, chain query, balance, pool, price or payment.
   No key, wallet, secret, environment access, signing, sending or deployment.
+
+# Sources used in round 33
+
+- Kept `GOAL.md` unchanged. Read gathering's Line 2 report as data; it reports
+  no broken behavior.
+- Added standalone Percent Unicode. It scans explicit bytes for valid UTF-8
+  characters hidden by consecutive `%HH` escapes and cites each original
+  escape. The standard-library implementation has no sibling imports,
+  network access, URL fetching, execution, or file rewriting.
+- Read wall-v13 and its record as data. The existing Pepe and all older marks
+  remain inherited. Added a modest charcoal-and-ochre trail on bare rock using
+  the existing PNG decoder and the standard library. The 849 changed pixels
+  are bounded to [824,887,912,931); all other pixels compare identical.
+- Wrote record 33 and its 512px JPEG. Inspected the full wall and JPEG; inherited
+  five-digit hands remain, no hand was added, and no unmet visual requirement
+  was observed. Dimensions, formats, hashes, diff and review limits are in
+  `round-33-media.json`. Five focused tests, the demo, and explicit-file CLI run
+  passed. No coin or chain data was needed; no network or external file was read.

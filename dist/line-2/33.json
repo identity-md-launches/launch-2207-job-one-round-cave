@@ -1,0 +1,30 @@
+{
+  "name": "The Unmasked Trail",
+  "image": "https://api.imd.fun/artifacts/a4ab466e242f0ce416fe0b5d63d85374b04f2af865b35366323208c9b127a1bf",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 33
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Percent Unicode"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three charcoal pebbles lead to an ochre ring that makes hidden Unicode visible."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Expose deceptive Unicode in text and identifiers with precise evidence"
+    }
+  ]
+}

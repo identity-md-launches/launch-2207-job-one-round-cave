@@ -1,0 +1,29 @@
+{
+  "wall": {
+    "path": "artifacts/line-2/wall-v14.png",
+    "format": "PNG RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 3976506,
+    "sha256": "a4ab466e242f0ce416fe0b5d63d85374b04f2af865b35366323208c9b127a1bf"
+  },
+  "preview": {
+    "path": "dist/line-2/33.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 90112,
+    "quality": 40
+  },
+  "ancestor_sha256": "dc121a6bf13a4e42db84fd296503ba85a4a1ec350d49ae9b03320e4f1e319d30",
+  "changed_pixels": 849,
+  "changed_bounds_half_open": [
+    824,
+    887,
+    912,
+    931
+  ],
+  "outside_changed_bounds_identical": true,
+  "unmet_visual_requirements": [],
+  "review": "Full wall and 512-pixel JPEG inspected. Existing Pepe and ancestor marks are unchanged; the inherited hands retain five digits and no hands were added. No letters, numbers, captions, signatures, logos, watermarks, borders or frames observed. Local visual review, not independent approval."
+}
