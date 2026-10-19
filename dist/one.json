@@ -1,6 +1,6 @@
 {
   "name": "One",
-  "image": "https://api.imd.fun/artifacts/d600492afeaea09c9638cf7abd14d0fa279f85b7251f7edf8a69922cd1e79f76",
+  "image": "https://api.imd.fun/artifacts/262b4871ab617a9df293f0cd40973748743bd08e8b411f608816c73ffa6461d6",
   "attributes": [
     {
       "trait_type": "Cave",
@@ -16,7 +16,7 @@
     },
     {
       "trait_type": "Meaning",
-      "value": "Two earth-pigment dots held in chalk arcs make hidden details worth a closer look."
+      "value": "Three earth-pigment pebbles linked by a broken trail show the lines carrying a useful handoff."
     }
   ]
 }

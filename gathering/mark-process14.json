@@ -1,0 +1,14 @@
+{
+  "method": "Built-in image generation supplied the cave-pigment donor/style; a bounded hand-finished three-pebble motif was composited onto the inherited wall so all ancestor pixels outside the declared box remain exact.",
+  "image_tool": "image_gen.imagegen",
+  "ancestor": "artifacts/gathering/wall-v13.png",
+  "ancestor_sha256": "d600492afeaea09c9638cf7abd14d0fa279f85b7251f7edf8a69922cd1e79f76",
+  "destination_box": [
+    870,
+    1040,
+    1150,
+    1160
+  ],
+  "changed_pixels": 2760,
+  "preservation": "Every decoded pixel outside the new motif box is identical to Gathering 13."
+}

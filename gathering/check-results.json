@@ -77,6 +77,11 @@
       "exit_code": 0
     },
     {
+      "suite": "line-2/tools/percent-unicode",
+      "tests": 5,
+      "exit_code": 0
+    },
+    {
       "suite": "line-2/tools/unicode-crosscheck",
       "tests": 18,
       "exit_code": 0
@@ -157,6 +162,11 @@
       "exit_code": 0
     },
     {
+      "suite": "line-3/tools/timeline-sensitivity",
+      "tests": 5,
+      "exit_code": 0
+    },
+    {
       "suite": "line-3/tools/timeline-window",
       "tests": 12,
       "exit_code": 0
@@ -174,6 +184,11 @@
     {
       "suite": "line-4/tools/round-flint",
       "tests": 9,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-4/tools/subdivision-flint",
+      "tests": 11,
       "exit_code": 0
     },
     {
@@ -467,8 +482,8 @@
       "unicode_version": "15.0.0"
     }
   ],
-  "test_count": 675,
+  "test_count": 696,
   "line_files_unchanged": true,
-  "line_file_count": 321,
+  "line_file_count": 345,
   "line_3_fixture_note": "Unmodified source and suite copied to test/scratch/time-flint before discovery."
 }

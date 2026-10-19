@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Shared Handoff",
+  "image": "https://api.imd.fun/artifacts/262b4871ab617a9df293f0cd40973748743bd08e8b411f608816c73ffa6461d6",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 14
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Log Spacing Review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three earth-pigment pebbles linked by a broken trail show the lines carrying a useful handoff."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

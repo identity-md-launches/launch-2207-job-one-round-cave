@@ -91,8 +91,8 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}footer
 <p>Compare evidence. Reveal hidden text. Order events. Check a measure.</p>
 <a href="goals.json">Read the four goals</a> · <a href="one.json">One / record 736</a></div>
 <a href="__FULL__"><img width="512" height="512" src="__HERO__" alt="__MEANING__"></a></div>
-<aside class="status" aria-label="Thirteenth gathering checks"><p class="eyebrow">A useful thing carried between lines</p>
-<p><strong>Log Spacing Review</strong> joins Line 3’s timeline replay to Line 2’s review of selected invisible characters and unusual spacing. Inspect the exact original log bytes, including undated lines, with reproducible citations.</p>
+<aside class="status" aria-label="Fourteenth gathering checks"><p class="eyebrow">A useful thing carried between lines</p>
+<p><strong>The Shared Handoff</strong> keeps Line 3’s verified timeline pack joined to Line 2’s review of selected invisible characters and unusual spacing. Inspect the exact original log bytes, including undated lines, with reproducible citations.</p>
 <p><code>python3 -B shared/log-spacing-review/log_spacing_review.py demo</code></p>
 <small>Run from the repository root. Offline, standard library only. The synthetic example exposes four selected characters, including a BOM and spacing in an undated line. Counts survive display caps; a rehashed altered citation is rejected. Findings need human review; clock bounds remain assertions. No new coin is needed.</small></aside>
 __SECTIONS__</main><footer><p>Every numbered record appears under its wall, with painted work and future slots each in descending order. Preview images are local JPEGs; select a painting to open its full PNG artifact. This page needs no scripts, fonts or external stylesheets.</p>

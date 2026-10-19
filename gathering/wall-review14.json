@@ -1,0 +1,22 @@
+{
+  "wall_sha256": "262b4871ab617a9df293f0cd40973748743bd08e8b411f608816c73ffa6461d6",
+  "format": "PNG RGB8",
+  "dimensions": [1254, 1254],
+  "preview": {
+    "path": "dist/gathering/14.jpg",
+    "format": "JPEG baseline",
+    "dimensions": [512, 512],
+    "max_bytes": 100000
+  },
+  "motif": "Three earth-pigment pebbles linked by a broken trail in the lower-right foreground.",
+  "ancestor": "artifacts/gathering/wall-v13.png",
+  "destination_box": [870, 1040, 1150, 1160],
+  "ancestor_pixels_outside_box_unchanged": true,
+  "pepe_visible": true,
+  "hands": "Both inherited visible hands have four fingers and one thumb.",
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Visual review is local and not independent artistic certification.",
+    "The small motif is less detailed in the 512-pixel preview."
+  ]
+}

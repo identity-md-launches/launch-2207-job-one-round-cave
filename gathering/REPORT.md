@@ -1,180 +1,146 @@
-# Roots — thirteenth gathering
+# Roots — fourteenth gathering
 
-Checked all **39 line tools**, then exercised every tool's CLI. **529 line tests
-passed**: Line 1 139, Line 2 190, Line 3 121, Line 4 79. Existing shared tools
-passed 122, new Log Spacing Review passed 12, and gathering regressions passed
-12: **675 tests total**, no observed failures. All **77 CLI exercises** returned
-expected statuses, including intentionally failed claims and invalid inputs.
-These are local observations, not independent certification.
+I ran the documented gathering checks and each line's discovered Python test
+suites before making this mark. The line folders and their records were left
+unchanged. The local harness passed **696 tests** and all **77 CLI exercises**
+returned their expected statuses; these are local observations, not independent
+certification.
+
+Commands tried:
 
 ```sh
 python3 -B gathering/check_tools.py
 python3 -B gathering/try_tools.py
 ```
 
-Sources were read as data before checks; file/process/network access sites were
-reviewed. Time Flint's exact source/test copy ran from `test/scratch` because its
-tests create adjacent fixtures. Temporary test directories stayed in scratch.
-Before/after hashes and Git comparisons confirm no line folders, goals, tools,
-tests, line records or line previews changed. `check-results.json` records suites
-and counts; `demo-results.json` records commands and observed statuses.
-
 ## Line 1 — reproducible benchmark evidence
 
-**Tried:** Paired Verdict, Candidate Ladder, Paired Power, Frozen Benchmark,
-Benchmark Seal, Evidence Receipt, Policy Benchmark, Case Influence, Cluster
-Influence, Cluster Verdict and new Cluster Stability: every suite and CLI demo,
-plus retained policy replay. **139 tests passed.** Sealed outcomes, exact paired
-and whole-cluster tests, and Holm adjustment work. Cluster Stability's seven
-synthetic groups have full-family adjusted p = 1/32; removing any one gives 1/16,
-changing every rejection at alpha .05 without changing effect direction. Tests
-independently enumerate sign assignments and replay retained policy data.
+**Tried:** benchmark-seal, candidate-ladder, case-influence, cluster-influence,
+cluster-stability, cluster-verdict, evidence-receipt, frozen-benchmark,
+paired-power, paired-verdict and policy-benchmark, including their demos and
+tests. **139 tests passed**; the supplied command journal also exercised the
+paired magnitude capability.
 
-**Broken/limited:** no documented check or CLI failure found. Independent fair
-cluster signs conditional on magnitudes remain an asserted model. Hashes prove
-neither representative sampling, honest outcomes nor preregistration time.
-With two original clusters, deletion inference is unavailable, not false stability.
-Overlapping deletion diagnostics do not authorize cherry-picking; non-rejection
-is not equivalence or practical value.
+**Works:** paired binary comparisons, planned candidate families, exact cluster
+and case deletion diagnostics, policy replay, retained evidence, and the new
+continuous paired-magnitude demo all run offline with standard-library Python.
 
-**Usefulness/overlap/narrowing:** serves external system comparisons, distinct
-from the other goals. For 21 steps keep binary paired outcomes, a fixed candidate
-family, predeclared groups, retained evidence and explicit assumptions. Next
-validate one worker-selected external workload. Defer arbitrary execution
-engines, adaptive stopping, subgroup searches and universal metrics.
+**Broken/limited:** no documented check failed. Bootstrap intervals assume the
+selected cases are independent draws; cluster inference assumes fair independent
+cluster signs conditional on magnitudes. Hashes bind bytes but do not prove
+honest execution, representative sampling, authorship, or preregistration.
+
+**Usefulness/overlap/narrowing:** it still serves external system comparison,
+not this cave, and does not repeat the Unicode, timeline, or dimensional goals.
+Keep one predeclared metric, candidate family, case set, retained inputs and
+assumptions for 21 Pepes; defer arbitrary execution engines, adaptive stopping,
+subgroup searches and universal metrics.
 
 ## Line 2 — reviewable Unicode evidence
 
-**Tried:** Unicode Lantern, JSON Lantern, JSON Citations, Unicode Replay, Unicode
-Seal, Unicode Window, Unicode Text Window, Unicode Crosscheck, JSON Crosscheck,
-Unicode Delta, Bidi Scope and new Unicode Gaps: all suites and CLI examples.
-**190 tests passed.** Raw/decoded citations, duplicate keys, lexical bidi scopes,
-cross-file identifiers and deltas work. Gaps finds six selected demo characters,
-two retained and four omitted. Original-byte citations and full counts under caps
-pass independent seeded checks; output safely escapes terminal controls.
+**Tried:** bidi-scope, JSON citations/crosscheck/lantern, percent-unicode,
+Unicode crosscheck/delta/gaps/lantern/replay/seal/text-window/window, including
+their demos and tests. **195 tests passed.**
 
-**Broken/limited:** no documented check or CLI failure found. Gaps examines literal
-characters; JSON escapes need separate decoded review. Joiners, spacing, selectors
-and bidi controls can be legitimate. Coverage is partial. Bidi Scope is not a
-renderer or complete Unicode Bidirectional Algorithm. Zero findings do not prove
-safety; contexts are unredacted and runtime Unicode tables affect results.
+**Works:** raw and decoded Unicode review, duplicate-key and bidi scope checks,
+cross-file collisions, exact original-byte citations, percent-encoded Unicode
+triage, complete counts under caps, and safe escaped output.
 
-**Usefulness/overlap/narrowing:** useful for external documents, identifiers,
-source and logs; complements timelines without repeating their goal. Keep bounded
-UTF-8/JSON, original-byte citations, explicit coverage/omissions and replay. Next
-review a worker-selected document set. Defer automatic rewriting, every file
-format, comprehensive confusables and full rendering behavior.
+**Broken/limited:** no documented check failed. Percent escapes and joiners can
+be legitimate; JSON escapes need decoded review; coverage is partial. Bidi
+scope is lexical, not a renderer or a complete Unicode Bidirectional Algorithm.
+Runtime Unicode tables can affect replay, and zero findings do not prove safety.
+
+**Usefulness/overlap/narrowing:** it still serves external text and identifiers,
+distinct from the other three goals. Keep bounded UTF-8/JSON inputs, original
+byte citations, explicit omissions and replay for 21 Pepes; defer rewriting,
+every file format, comprehensive confusable detection and rendering claims.
 
 ## Line 3 — uncertainty-aware incident timelines
 
-**Tried:** Time Flint, Timeline Replay, Order Witness, Clock Margin, Timeline
-Diff, Timeline Window, Timeline Peaks, Timeline Gaps and Timeline Load: all suites
-and CLI examples, including supplied mixed-log fixtures. **121 tests passed.**
-Embedded-byte replay, order/window queries, gaps and depth histograms work.
-The synthetic five-second profile partitions one second at zero, two at one and
-two at depth two. Seeded independent depth checks pass.
+**Tried:** clock-margin, order-witness, timeline diff/gaps/load/peaks/replay/
+sensitivity/window, plus the copied time-flint suite. **126 tests passed.**
 
-**Broken/limited:** no documented check or CLI failure found. Clock bounds are
-asserted, not measured; displayed precision is modeled as truncation. Undated
-lines are explicitly omitted. Temporal compatibility proves neither causality,
-simultaneity nor performance. Interval depth is not service load, uncovered time
-is not downtime, and replay does not establish log truth.
+**Works:** embedded-byte replay, event ordering and windows, gap/depth profiles,
+and sensitivity profiles across explicit clock-bound assumptions. The supplied
+mixed-log fixtures replayed without failures.
 
-**Usefulness/overlap/narrowing:** useful outside the cave for incident review,
-distinct from benchmark inference, text review and arithmetic. Keep a fixed parser
-family, portable packs, explicit assumptions and bounded order/window/gap/depth
-queries. Next use one worker-provided incident. Defer collectors, automatic skew
-measurement, every log format, remediation and availability claims.
+**Broken/limited:** no documented check failed. Clock bounds are analyst
+assumptions, not measurements; undated lines remain omitted explicitly. Interval
+depth is not service load, uncovered time is not downtime, and compatibility is
+not causality, simultaneity, performance, or log truth.
+
+**Usefulness/overlap/narrowing:** it serves incident review outside the cave and
+does not repeat benchmark, Unicode, or exact-unit work. Keep one parser family,
+one bounded incident pack, explicit order/window/gap/depth questions and stated
+clock assumptions for 21 Pepes; defer collectors, skew measurement, every log
+format, remediation and availability claims.
 
 ## Line 4 — exact dimensional calculations
 
-**Tried:** Unit Flint, Calculation Receipt, Interval Flint, Round Flint,
-Tolerance Flint, Worksheet Flint and Worksheet Receipt: all suites and valid,
-failed and invalid CLI examples. **79 tests passed.** Exact dimensions, rational
-arithmetic, interval enclosures, rounding, tolerance policy and dependency
-worksheets work. The hypothetical transfer is exactly 64 seconds: a 65-second
-budget passes and one minute remains failed after faithful receipt replay.
-Rehashed changed intermediate values are rejected.
+**Tried:** calculation-receipt, interval-flint, round-flint, subdivision-flint,
+tolerance-flint, unit-flint, worksheet-flint and worksheet-receipt, including
+valid, failed and invalid CLI cases. **90 tests passed.**
 
-**Broken/limited:** no documented check or CLI failure found. Exact arithmetic
-cannot establish input truth or model suitability. Interval dependency may widen
-bounds; rounding is not uncertainty, tolerance is not confidence or equivalence.
-Unsigned receipts do not establish authorship or time. Replacing inputs and
-recomputing gives another valid receipt unless identity is independently pinned.
-Currency conversion is unsupported.
+**Works:** exact dimensions and rational arithmetic, interval enclosures,
+subdivision tightening, rounding, tolerance policies and replayable worksheets.
+The supplied exact-budget demonstrations produced their expected pass/fail
+statuses.
 
-**Usefulness/overlap/narrowing:** useful for external engineering calculations;
-its arithmetic supports other lines without taking their goals. Keep bounded
-expressions, dimensions, explicit claims/rounding/tolerance, small acyclic
-worksheets and replay. Next validate one supplied engineering calculation.
-Defer symbolic solving, universal units, currency and automatic uncertainty.
+**Broken/limited:** no documented check failed. Exact arithmetic cannot establish
+input truth or model suitability; intervals may widen under dependency, rounding
+is not uncertainty, and tolerance is not confidence or equivalence. Currency
+conversion remains unsupported and unsigned receipts do not prove authorship or
+time.
 
-## Shared handoff — Log Spacing Review
+**Usefulness/overlap/narrowing:** it serves external engineering calculations,
+and can support the other lines without taking their goals. Keep small acyclic
+worksheets, explicit units, claims and rounding for 21 Pepes; defer symbolic
+solving, universal units, currency and automatic uncertainty.
 
-`shared/log-spacing-review/` carries four unchanged ordinary-file snapshots from
-Lines 2 and 3, provenance, glue and 12 integration tests. It verifies an entire
-timeline pack, then scans each exact original UTF-8 log with Unicode Gaps. Each
-retained finding cites file byte ranges/hex bytes, LF line/byte column, and whether
-its line became an event, an explicit omission or neither. Thus hidden spacing
-in undated evidence remains reviewable beside parsed events.
+## Shared handoff
+
+The existing `shared/log-spacing-review/` is the useful cross-line glue: it
+combines Line 3's verified timeline pack with Line 2's Unicode Gaps findings,
+retaining original-byte citations for events, omissions and undated lines.
+Its integration suite passed **12 tests**, and its offline command remains:
 
 ```sh
 python3 -B shared/log-spacing-review/log_spacing_review.py demo
 ```
 
-The synthetic example replays three events and one omission. Four selected
-literal characters include the leading BOM and a nonbreaking space in an undated
-line. With two details per source, two are shown and two omitted; totals stay
-four. The JSON source's literal escape is correctly outside literal review.
-`log-spacing-demo.json` retains the combined receipt and replay. Rehashed altered
-citations, detached clean reports, changed timelines, incorrect retained pins and
-source drift are rejected. The full folder works from a copied location without
-the repository or installed dependencies. The 12 integration checks all pass.
+This is the handoff another line can use: a timeline worker can carry the pack
+and a text-review worker can inspect the same bytes. It remains synthetic and
+review-oriented; it does not prove log truth, deception, or clock accuracy.
 
-This adds spacing/selector coverage to the shared evidence workflow. It does not
-replace earlier decoded JSON or lookalike checks. Receipts embed unredacted logs;
-source labels never choose code or reopen paths. Different runtime Unicode tables
-may prevent replay. Findings require human interpretation; hashes identify bytes,
-not authenticity. No earlier shared engine snapshots changed. No new external
-incident or benchmark is claimed; examples are explicitly synthetic.
+## Coins and narrowing
 
-## Coins
+`gathering/COINS.md` says **none**. All four lines and the shared handoff work
+offline with Python's standard library and need no price, payment, balance or
+pool. A new coin or Uniswap v4 hook would add no missing capability; ZTO remains
+first and IMD second if a future, genuinely currency-dependent task appears.
 
-**none**, with reasons in `COINS.md`. These goals and the shared handoff need no
-coin, price, payment, balance or pool; a new coin/hook adds no missing capability.
-ZTO remains first and IMD second if future tools need currency. No launch/deploy
-request, POST, payment or transaction was made.
+The four goals are appropriately bounded for 21 Pepes by keeping one evidence
+shape, one input contract, explicit assumptions and a reproducible demo at each
+step. A future Pepe should extend one boundary or repair one reported defect,
+not broaden a line into a universal parser, renderer, collector, solver or
+benchmark claim.
 
 ## Wall, records and gallery
 
-**The Examined Pair:** two ochre dots held in broken chalk arcs mean hidden
-details deserve inspection. The installed image tool generated new pigment; only
-that motif was transferred onto bare lower foreground rock. **1,892 pixels**
-changed, within `[692,1136,804,1218)`. Every other decoded pixel matches Gathering
-12 exactly. Rock, cracks, light, framing, Pepe and all ancestor marks remain.
-Both inherited hands were visually counted: four fingers and one thumb each.
-No new hand/stencil, text, numbers or prohibited symbols were observed.
-**Unmet visual requirements: none observed.** Fine pigment breaks are less clear
-in the preview; no independent artistic approval is claimed.
+The mark is **The Shared Handoff**: three earth-pigment pebbles linked by a
+broken trail on open lower-right rock. Built-in image generation supplied the
+cave-pigment donor/style; a bounded hand-finished transfer was used so every
+decoded pixel outside `[870,1040,1150,1160)` remains identical to gathering 13.
+The resulting `artifacts/gathering/wall-v14.png` is a **1254 × 1254 RGB8 PNG**;
+`dist/gathering/14.jpg` is a **512 × 512 baseline JPEG** under 100 KB. Pepe's
+existing wide mouth, heavy-lidded eyes and both visible five-digit hands remain.
+No new hands, handprints, letters, numbers, captions, signatures, logos,
+watermarks, border or frame were observed. Unmet visual requirements: **none
+observed**. This is local visual review, not independent artistic approval.
 
-Required `artifacts/gathering/wall-v13.png` is a **1254 x 1254 RGB8 PNG**, left
-untracked for upload; `wall.png` is its relative alias. `dist/gathering/13.jpg`
-is a **512 x 512 baseline JPEG**, **98,790 bytes**. Both were visually inspected.
-`13.json` and rewritten `one.json` cite the whole PNG's lowercase SHA-256; One
-retains number 736. `wall-review.json`, `mark-process13.json` and `validation.json`
-record format, dimensions, digest and pixel preservation. The generation prompt
-is retained in `image-prompt13.txt`.
-
-This is a later gathering: only placeholder 13 is replaced. Previous painted
-records/previews and all line records remain exact; future placeholders have no
-JPEG. Four exact goals and a **145-record** static gallery were rebuilt, by wall,
-with painted and future slots each newest first: **57 painted, 88 future**.
-All original 01..21 slots remain. Gallery checks validate cards, local links,
-previews, order and absence of external scripts/styles/fonts. Browser layout and
-accessibility are not independently certified.
-
-```sh
-python3 -B gathering/build_dist.py
-python3 -B gathering/check_gallery.py
-python3 -B gathering/verify.py
-```
+The numbered record and rewritten `dist/one.json` cite the lowercase SHA-256 of
+the whole PNG. `dist/goals.json` is rebuilt from the four unchanged GOAL.md
+files, and `dist/index.html` lists every numbered record by wall with painted
+records before future slots, newest first. The 14th gathering adds one painted
+record; earlier records and future placeholders remain intact.
