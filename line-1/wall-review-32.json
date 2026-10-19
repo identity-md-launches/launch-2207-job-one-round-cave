@@ -1,0 +1,37 @@
+{
+  "wall": "artifacts/line-1/wall-v14.png",
+  "dimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "format": "PNG RGB8",
+  "bytes": 2889860,
+  "sha256": "05223df073a2954d35e09d1ac4d9cb23d7d15e88768fa2787b938419239d232f",
+  "preview": {
+    "path": "dist/line-1/32.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 67193
+  },
+  "ancestor_record": 31,
+  "paint_bounds": [
+    870,
+    48,
+    1155,
+    300
+  ],
+  "changed_pixels": 3944,
+  "all_pixels_outside_mark_identical": true,
+  "visual_review": {
+    "pepe_present": true,
+    "no_new_hands_or_stencils": true,
+    "visible_five_digit_count_required": false,
+    "no_letters_or_numbers_observed": true,
+    "unmet_visual_requirements": []
+  },
+  "limits": [
+    "Local visual inspection only; no independent visual reviewer.",
+    "Small pebble texture softens in the 512-pixel preview."
+  ]
+}

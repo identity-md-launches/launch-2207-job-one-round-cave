@@ -1,0 +1,30 @@
+{
+  "name": "The Paired Pebbles",
+  "image": "https://api.imd.fun/artifacts/05223df073a2954d35e09d1ac4d9cb23d7d15e88768fa2787b938419239d232f",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 32
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Paired Magnitude"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Each pair keeps two measurements together so their difference can be weighed across cases."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible benchmark evidence"
+    }
+  ]
+}

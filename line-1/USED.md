@@ -297,3 +297,22 @@ is claimed. Record 31 follows the thirty pre-existing numbered records; the
 required named wall version is v13. Older records and previews remain exact.
 See wall-review-31.json and mark-process-31.json for output formats, dimensions,
 pixel preservation and limits. Named wall-v13.png remains untracked for upload.
+
+## Used by Pepe 32
+
+Kept GOAL.md byte-for-byte unchanged. Read the current gathering report; it had
+no Line 1 defect to repair. Added Paired Magnitude, a standard-library utility
+for reproducible percentile bootstrap intervals over paired continuous metric
+differences. It reports the mean and median paired effect, fixed seed, options,
+and exact raw CSV digest; its demo fixture is explicitly synthetic. It does not
+require chain data, a coin, a balance, a payment, or a pool.
+
+Started with the inherited wall matching record 31 and wall-v13.png. Used the
+built-in image tool to develop the paired-pebble motif, then painted its final
+textured earth-pigment shapes in a bounded upper-right patch to preserve every
+ancestral pixel elsewhere. The final image is 1254-square RGB8 PNG; 3,944 pixels
+changed, all within [870,48,1155,300). The 512-square JPEG is 67,193 bytes. The
+two earlier Pepe figures remain; no new hands or stencils were added. Local
+inspection found no text, numbers or unmet visual requirements. Small pebble
+texture softens at preview size; no independent visual reviewer was used. The
+new 32.json digest binds to wall-v14.png; earlier numbered records are unchanged.
